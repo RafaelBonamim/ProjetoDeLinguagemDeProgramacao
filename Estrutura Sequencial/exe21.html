@@ -1,0 +1,84 @@
+<!--Identificação HTML para o Navegador-->
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <!--Declaração de Formatação-->
+        <meta charset="utf-8">
+
+        <!-- Título da Página-->
+        <title> Exercício 21 </title>
+
+        <!-- Referência ao arquivo de JavaScript externo-->
+        <script src = "funcoes.js"> </script>
+
+        <!-- Referência ao arquivo de CSS externo-->
+        <link rel = "stylesheet" type = "text/css" href="estilos.css">
+
+    </head>
+
+    <!--Corpo da Página-->
+    <body>
+
+        <!--Cabeçalho do Corpo da Página-->
+        <header>
+            <h3> Novo Salário </h3>
+    
+            <p> Faça um programa que receba o número de horas trabalhadas, o valor do salário mínimo e o número de horas extras trabalhadas, calcule e mostre o salário a receber, de acordo com as regras a seguir: </p>
+            <p> A hora trabalhada vale 1/8 do salário mínimo; </p>
+            <p> A hora extra trabalhada vale 1/4 do salário mínimo; </p>
+            <p> O salário bruto equivale ao número de horas trabalhadas multiplicado pelo valor da hora trabalhada; </p>
+            <p> A quantia a receber pelas horas extras equivale ao número de horas extras trabalhadas, multiplicado pelo valor da hora extra; </p>
+            <p> O salário a receber equivale ao salário bruto mais a quantia a receber pelas horas extras. </p>
+        </header>
+
+        <!--Conteúdo Central do Corpo da Página-->
+        <main>
+
+            <div>
+
+                <!-- Rótulo -->
+                <label for = "salarioMinimo" > Por gentileza, digite o valor do Salário Mínimo em R$: </label>
+                <!--Caixa de Texto -->
+                <input type = "number" id = "salarioMinimo"/>
+            </div>
+
+            <div>
+
+                <!-- Rótulo -->
+                <label for = "horasTrabalhadas" > Informe as Horas Trabalhadas: </label>
+                <!--Caixa de Texto -->
+                <input type = "number" id = "horasTrabalhadas"/>
+            </div>
+            
+            <div>
+
+                <!-- Rótulo -->
+                <label for = "horasExtraTrabalhadas" > Informe as Horas Extra Trabalhadas: </label>
+                <!--Caixa de Texto -->
+                <input type = "number" id = "horasExtraTrabalhadas"/>
+            </div>
+
+            <div>
+    
+                <button type="button" onclick="exe21()"> Calcular </button>
+    
+            </div>
+    
+            <div id = "resultado"></div>
+
+        </main>
+
+        <!--Rodapé do Corpo da Página-->
+        <footer>
+            <h4> Desenvolvido com muito amor e dedicação pelo aluno mais complicado da Fatec Franca! </h4>
+            <h5> ║▌║█║▌│║▌║▌█║▌║█║▌│║▌║▌█║▌║█║▌│║▌║▌█║▌║█║▌│║▌ </h5>
+    
+            <h5> <a href="index.html"> Voltar ao Menu Principal </a></h5>
+    
+        </footer>
+        
+    </body>
+</html>

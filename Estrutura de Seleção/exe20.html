@@ -1,0 +1,86 @@
+<!--Identificação HTML para o Navegador-->
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <!--Declaração de Formatação-->
+        <meta charset="utf-8">
+
+        <!-- Título da Página-->
+        <title> Exercício 20 </title>
+
+        <!-- Referência ao arquivo de JavaScript externo-->
+        <script src = "funcoes.js"> </script>
+
+        <!-- Referência ao arquivo de CSS externo-->
+        <link rel = "stylesheet" type = "text/css" href="estilos.css">
+
+    </head>
+
+    <!--Corpo da Página-->
+    <body>
+
+        <!--Cabeçalho do Corpo da Página-->
+        <header>
+            <h3> Maioridade </h3>
+    
+            <p> Faça um programa que receba a idade de um nadador e mostre sua categoria, usando as regras a seguir. Para idade inferior a 5, deverá mostrar uma mensagem. </p>
+            
+            <ul>
+                <p> Categorias </p>
+                <li>
+                    Infantil = 5 a 7.
+                </li>
+                <li>
+                    Juvenil = 8 a 10.
+                </li>
+                <li>
+                    Adolescente = 11 a 15.
+                </li>
+                <li>
+                    Adulto = 16 a 30.
+                </li>
+                <li>
+                    Sênior = Acima de 30.
+                </li>
+            </ul>
+        </header>
+
+        <!--Conteúdo Central do Corpo da Página-->
+        <main>
+
+            <div>
+
+                <!-- Rótulo -->
+                <label for = "idade" > Por gentileza, digite a idade do nadador: </label>
+    
+                <!--Caixa de Texto -->
+                <input type = "number" id = "idade"/>
+    
+            </div>
+            <div>
+    
+                <button type="button" onclick="exe20()"> Calcular </button>
+    
+            </div>
+    
+    
+            <div id = "resultado">
+    
+            </div>
+
+        </main>
+
+        <!--Rodapé do Corpo da Página-->
+        <footer>
+            <h4> Desenvolvido com muito amor e dedicação pelo aluno mais complicado da Fatec Franca! </h4>
+            <h5> ║▌║█║▌│║▌║▌█║▌║█║▌│║▌║▌█║▌║█║▌│║▌║▌█║▌║█║▌│║▌ </h5>
+    
+            <h5> <a href="index.html"> Voltar ao Menu Principal </a></h5>
+    
+        </footer>
+        
+    </body>
+</html>

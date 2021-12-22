@@ -1,0 +1,106 @@
+<!--Identificação HTML para o Navegador-->
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <!--Declaração de Formatação-->
+        <meta charset="utf-8">
+
+        <!-- Título da Página-->
+        <title> Exercício 21 </title>
+
+        <!-- Referência ao arquivo de JavaScript externo-->
+        <script src = "funcoes.js"> </script>
+
+        <!-- Referência ao arquivo de CSS externo-->
+        <link rel = "stylesheet" type = "text/css" href="estilos.css">
+
+    </head>
+
+    <!--Corpo da Página-->
+    <body>
+
+        <!--Cabeçalho do Corpo da Página-->
+        <header>
+            <h3> Precedência do Prroduto </h3>
+    
+            <p> Faça um programa que receba o preço de um produto e seu código de origem e mostre sua procedência. A procedência obedece à tabela a seguir. </p>
+            
+            <ul>
+                <p> Código / Procedência </p>
+                <li>
+                    1 = Sul.
+                </li>
+                <li>
+                    2 = Norte.
+                </li>
+                <li>
+                    3 = Leste.
+                </li>
+                <li>
+                    4 = Oeste.
+                </li>
+                <li>
+                    5 ou 6 = Nordeste.
+                </li>
+                <li>
+                    7 ou 8 ou 9 = Sudeste.
+                </li>
+                <li>
+                    10 a 20 = Centro-Oeste.
+                </li>
+                <li>
+                    21 a 30 = Nordeste.
+                </li>
+            </ul>
+        </header>
+
+        <!--Conteúdo Central do Corpo da Página-->
+        <main>
+
+            <div>
+
+                <!-- Rótulo -->
+                <label for = "preco" > Por gentileza, digite o valor do produto: </label>
+    
+                <!--Caixa de Texto -->
+                <input type = "number" id = "preco"/>
+    
+            </div>
+
+            <div>
+
+                <!-- Rótulo -->
+                <label for = "codigo" > Agora, digite o código do produto: </label>
+    
+                <!--Caixa de Texto -->
+                <input type = "number" id = "codigo"/>
+    
+            </div>
+
+            <div>
+    
+                <button type="button" onclick="exe21()"> Calcular </button>
+    
+            </div>
+    
+    
+            <div id = "resultado">
+    
+            </div>
+
+        </main>
+
+        <!--Rodapé do Corpo da Página-->
+        <footer>
+            <h4> Desenvolvido com muito amor e dedicação pelo aluno mais complicado da Fatec Franca! </h4>
+            <h5> ║▌║█║▌│║▌║▌█║▌║█║▌│║▌║▌█║▌║█║▌│║▌║▌█║▌║█║▌│║▌ </h5>
+    
+            <h5> <a href="index.html"> Voltar ao Menu Principal </a></h5>
+    
+        </footer>
+        
+    </body>
+</html>

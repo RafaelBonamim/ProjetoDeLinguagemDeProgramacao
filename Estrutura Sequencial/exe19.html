@@ -1,0 +1,78 @@
+<!--Identificação HTML para o Navegador-->
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <!--Declaração de Formatação-->
+        <meta charset="utf-8">
+
+        <!-- Título da Página-->
+        <title> Exercício 19 </title>
+
+        <!-- Referência ao arquivo de JavaScript externo-->
+        <script src = "funcoes.js"> </script>
+
+        <!-- Referência ao arquivo de CSS externo-->
+        <link rel = "stylesheet" type = "text/css" href="estilos.css">
+
+    </head>
+
+    <!--Corpo da Página-->
+    <body>
+
+        <!--Cabeçalho do Corpo da Página-->
+        <header>
+            <h3> Potência de Iluminação </h3>
+    
+            <p> Sabe-se que para iluminar de maneira correta os cômodos de uma casa, para cada m², deve-se usar 18W de potência. Faça um programa que receba as duas dimensões de um cômodo (em metros), calcule e mostre a sua área (em m²) e a potência de iluminação que deverá ser utilizada. </p>
+
+        </header>
+
+        <!--Conteúdo Central do Corpo da Página-->
+        <main>
+
+            <div>
+
+                <!-- Rótulo -->
+                <label for = "lado1" > Lado 1: </label>
+    
+                <!--Caixa de Texto -->
+                <input type = "number" id = "lado1"/>
+    
+            </div>
+
+            <div>
+
+                <!-- Rótulo -->
+                <label for = "lado2" > Lado 2: </label>
+    
+                <!--Caixa de Texto -->
+                <input type = "number" id = "lado2"/>
+    
+            </div>
+            
+            <div>
+    
+                <button type="button" onclick="exe19()"> Calcular </button>
+    
+            </div>
+    
+            <div id = "resultado"></div>
+
+            <div id = "resultado1"></div>
+
+        </main>
+
+        <!--Rodapé do Corpo da Página-->
+        <footer>
+            <h4> Desenvolvido com muito amor e dedicação pelo aluno mais complicado da Fatec Franca! </h4>
+            <h5> ║▌║█║▌│║▌║▌█║▌║█║▌│║▌║▌█║▌║█║▌│║▌║▌█║▌║█║▌│║▌ </h5>
+    
+            <h5> <a href="index.html"> Voltar ao Menu Principal </a></h5>
+    
+        </footer>
+        
+    </body>
+</html>

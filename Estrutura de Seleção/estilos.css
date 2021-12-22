@@ -1,0 +1,71 @@
+body{
+    /*Largura da Página*/
+    width: 800px;     
+    /*Margem c/ Espaçamento Centralizado*/  
+    margin: auto;   
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 25px;
+    color: white;
+    background-color: black;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    letter-spacing: -0.6px;
+    word-spacing: 2px;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: center;
+}
+
+button{
+    text-align: center;
+    outline: 5px groove #ffffff;
+    outline-offset: 0px;
+    color: #000000;
+    font-size: 25px;
+    cursor: not-allowed;
+    width: 800px;
+    margin: 0 auto;
+}
+
+input{
+    text-align: center;
+    padding: 8px;
+    height: 20px;
+    width: 800px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    letter-spacing: -0.6px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+header, footer{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    letter-spacing: -0.6px;
+    word-spacing: 2px;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+div{
+    margin-bottom: 20px;
+}

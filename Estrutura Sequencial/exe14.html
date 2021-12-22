@@ -1,0 +1,76 @@
+<!--Identificação HTML para o Navegador-->
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <!--Declaração de Formatação-->
+        <meta charset="utf-8">
+
+        <!-- Título da Página-->
+        <title> Exercício 14 </title>
+
+        <!-- Referência ao arquivo de JavaScript externo-->
+        <script src = "funcoes.js"> </script>
+
+        <!-- Referência ao arquivo de CSS externo-->
+        <link rel = "stylesheet" type = "text/css" href="estilos.css">
+
+    </head>
+
+    <!--Corpo da Página-->
+    <body>
+
+        <!--Cabeçalho do Corpo da Página-->
+        <header>
+            <h3> Converter Horas </h3>
+    
+            <p> Faça um programa que receba o ano de nascimento de uma pessoa e o ano atual, calcule e mostre: </p>
+            <p> A idade dessa pessoa em anos; </p>
+            <p> A idade dessa pessoa em meses; </p>
+            <p> A idade dessa pessoa em dias; </p>
+            <p> A idade dessa pessoa em semanas; </p>
+            
+        </header>
+
+        <!--Conteúdo Central do Corpo da Página-->
+        <main>
+
+            <div>
+
+                <!-- Rótulo -->
+                <label for = "anoNascimento" > Ano de Nascimento: </label>
+                <!--Caixa de Texto -->
+                <input type = "number" id = "anoNascimento"/>
+            </div>
+
+            <div>
+
+                <!-- Rótulo -->
+                <label for = "anoAtual" > Ano Atual: </label>
+                <!--Caixa de Texto -->
+                <input type = "number" id = "anoAtual"/>
+            </div>
+
+            <div>
+    
+                <button type="button" onclick="exe14()"> Calcular </button>
+    
+            </div>
+    
+            <div id = "resultado"></div>
+
+        </main>
+
+        <!--Rodapé do Corpo da Página-->
+        <footer>
+            <h4> Desenvolvido com muito amor e dedicação pelo aluno mais complicado da Fatec Franca! </h4>
+            <h5> ║▌║█║▌│║▌║▌█║▌║█║▌│║▌║▌█║▌║█║▌│║▌║▌█║▌║█║▌│║▌ </h5>
+    
+            <h5> <a href="index.html"> Voltar ao Menu Principal </a></h5>
+    
+        </footer>
+        
+    </body>
+</html>

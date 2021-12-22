@@ -1,0 +1,153 @@
+<!--Identificação HTML para o Navegador-->
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <!--Declaração de Formatação-->
+        <meta charset="utf-8">
+
+        <!-- Título da Página-->
+        <title> Exercício 24 </title>
+
+        <!-- Referência ao arquivo de JavaScript externo-->
+        <script src = "funcoes.js"> </script>
+
+        <!-- Referência ao arquivo de CSS externo-->
+        <link rel = "stylesheet" type = "text/css" href="estilos.css">
+
+    </head>
+
+    <!--Corpo da Página-->
+    <body>
+
+        <!--Cabeçalho do Corpo da Página-->
+        <header>
+            <h3> Impostos </h3>
+
+            <p> Faça um que receba o preço, a categoria (1.Limpeza; 2.Alimentação; ou 3.Vestuário) e a situação (R.Produtos que necessitam de refrigeração; N.Produtos que não necessitam de refrigeração). Calcule e mostre: O valor do aumento e o valor do imposto usando as regras que seguem.</p>
+
+            <ul>
+                <p> Preço <= 25 </p>
+                <li>
+                    Categoria 1 = 5%.
+                </li>
+                <li>
+                    Categoria 2 = 8%.
+                </li>
+                <li>
+                    Categoria 3 = 10%.
+                </li>
+            </ul>
+
+            <ul>
+                <p> Preço > 25 </p>
+                <li>
+                    Categoria 1 = 12%.
+                </li>
+                <li>
+                    Categoria 2 = 15%.
+                </li>
+                <li>
+                    Categoria 3 = 18%.
+                </li>
+            </ul>
+
+            <ul>
+                <p> O produto que preencher pelo menos um dos seguintes requisitos pagará imposto equivalente a 5% do preço; caso contrário 8%. Os requisitos são: </p>
+                <li>
+                    Categoria: 2.
+                </li>
+                <li>
+                    Situação R.
+                </li>
+                <p> O novo preço, ou seja, o preço mais o aumento menos o imposto. </p>
+            </ul>
+
+            <ul>
+                <p> A classificação, usando as regras a seguir. </p>
+                <li>
+                    Menor ou igual a R$50,00 = Barato.
+                </li>
+                <li>
+                    Entre R$50,00 e R$120,00 = Normal.
+                </li>
+                <li>
+                    Acima de R$120,00 = Caro.
+                </li>
+            </ul>
+        </header>
+
+        <!--Conteúdo Central do Corpo da Página-->
+        <main>
+
+            <div>
+
+                <!-- Rótulo -->
+                <label for = "preco" > Por gentileza, digite o preço do produto: </label>
+    
+                <!--Caixa de Texto -->
+                <input type = "number" id = "preco"/>
+    
+            </div>
+
+            <div>
+                <!-- <select></select> = Caixa de Seleção -->
+                <select id="opcaoCategoria">
+                    <!-- <option></option> = Caixa de Opção-->
+                    <option value="1">
+                        1.Limpeza.
+                    </option>
+                    
+                    <!-- <option></option> = Caixa de Opção-->
+                    <option value="2">
+                        2. Alimentação.
+                    </option>
+
+                    <!-- <option></option> = Caixa de Opção-->
+                    <option value="3">
+                        3. Vestuário.
+                    </option>
+                </select>
+            </div>
+
+            <div>
+                <!-- <select></select> = Caixa de Seleção -->
+                <select id="opcaoSituacao">
+                    <!-- <option></option> = Caixa de Opção-->
+                    <option value="1">
+                        1. Produtos que necessitam de refrigeração. 
+                    </option>
+                    
+                    <!-- <option></option> = Caixa de Opção-->
+                    <option value="2">
+                        2. Produtos que não necessitam de refrigeração.
+                    </option>
+                </select>
+            </div>
+
+            <div>
+    
+                <button type="button" onclick="exe24()"> Calcular </button>
+    
+            </div>
+    
+    
+            <div id = "resultado">
+    
+            </div>
+
+        </main>
+
+        <!--Rodapé do Corpo da Página-->
+        <footer>
+            <h4> Desenvolvido com muito amor e dedicação pelo aluno mais complicado da Fatec Franca! </h4>
+            <h5> ║▌║█║▌│║▌║▌█║▌║█║▌│║▌║▌█║▌║█║▌│║▌║▌█║▌║█║▌│║▌ </h5>
+    
+            <h5> <a href="index.html"> Voltar ao Menu Principal </a></h5>
+    
+        </footer>
+        
+    </body>
+</html>
